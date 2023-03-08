@@ -1,0 +1,11 @@
+
+h2{
+    color:aqua;
+}
+.highlight{
+    border: solid;
+}
+#profile{
+    border: solid;
+    border-color: blueviolet;
+}

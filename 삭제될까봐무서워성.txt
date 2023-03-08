@@ -43,7 +43,6 @@
             </div>
         </div>
         <div>    
-            <div class="highlight">
             <div>
              <img src="image/hl 2.jpg"
              height="60px"/>
