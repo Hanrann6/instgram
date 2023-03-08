@@ -1,6 +1,42 @@
 <html>
     <head>
         input 태그를 연습해 보아요<br/>
+        <style>
+            p{
+                color: #f23456;
+                font-style: italic;
+                font-weight: 100;
+                font-variant: small-caps;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+                text-decoration: underline;
+                text-decoration: line-through blue;
+                border: dotted;
+                border: dashed;
+                border: solid;
+                border: double;
+                //border: inset;
+                //border: outset;
+                border-width: 5px;
+                border-top-width: 10px;
+                border-bottom-color: violet;
+                border-radius: 15px;
+
+                background-color: yellow;
+            }
+            .check{
+                display: block;
+            }
+            div{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+            }
+            #first {background-color: red;}
+            #second {background-color: orange;}
+            #third {background-color: rgb(254, 254, 6);}
+        </style>
     </head>
     <body>
 
@@ -29,8 +65,24 @@
     <input type="color" value="#ff0000"/><br/>
     <br/>
 
+    <p class="check">
     <input type="checkbox"/>졸린가요?<br/>
     <input type="checkbox"/>배부른가요?<br/>
+    </p>
+
+    <div>
+        <div class="Grid">
+            <div id="first">
+                안녕하세요
+            </div>
+            <div id="second">
+                감사합니다
+            </div>
+            <div id="third">
+                반가워요
+            </div>
+    </div>
+    <br/>
 
     <p>
     <input type="radio" name="radio1" cheked/>한식 
@@ -46,11 +98,12 @@
         <input type="radio" name="radio3" cheked/>매운 것
         <input type="radio" name="radio3" cheked/>안 매운 것
     </p>
-    <input type="range"/><br/>
-    <input type="range" min="0" max="1000"/><br/>
+                                
+    <input  type="range"/><br/>
+    <input  type="range" min="0" max="1000"/><br/>
     <input type="range" min="0" max="1000" step="100"/><br/>
-    <input type="range" min="0" max="1000" step="100" value="200"/><br/>
-    <br/>
+    <input  type="range" min="0" max="1000" step="100" value="200"/><br/>
+
 
     <input type="date"/><br/>
     <input type="month"/><br/>
@@ -58,8 +111,5 @@
     <input type="time"/><br/>
     <input type="datetime-local"/>
 
-
-
-    </body>
-
+   
 </html>
