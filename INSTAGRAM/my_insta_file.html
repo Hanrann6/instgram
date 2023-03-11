@@ -1,49 +1,63 @@
 <html>
  <head>
     <link href="style.css" rel="stylesheet">
- </head>
+    <link href="https://fontawesome.com/search" rel="stylesheet">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/dd1a43c33c.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dd1a43c33c.js" crossorigin="anonymous"></script> 
+  </head>
  <body>
    
+<div id="top">
+    <img src="image/logo.png"
+       width="90px"/>
+    <input type="search" value="🔍검색"/>
     <div>
-      <img src="image/logo.png"
-       width="100px"/>
-       <input type="search" value="검색"/>
-    <div>
+      <i class="fa-solid fa-house"></i>
+      <i class="far fa-paper-plane"></i>
+      <i class="far fa-compass"></i>
+      <i class="far fa-heart"></i>
     </div>
-    <div id="profile">
-     <img class="circle_pic" src="image/profile.jpg"
-     width="60px">
-     <div>
-       <h2>rann_love</h2>
+</div>
+ <div id="profile">
+      <div id="profile_pic">
+       <img class="circle_pic" src="image/profile.jpg"
+       width="60px">
+      </div>
+      <div id="profile_info">
+       <div id="id">
+        rann_love
+        <i class="fas fa-cog"></i>
+      </div>
        <button>프로필 편집</button>
      </div>
-    </div>
-    <div>
- <p>
+ </div>
+
+<div>
+  <p>
     <strong>
- 김동균(kimddingun)
+  김동균(kimddingun)
     </strong><br/>
- 대학생<br/>
- </p>
- <p>
+  대학생<br/>
+  </p>
+  <p>
     <a href="https://www.naver.com">
         rann.github
     </a>
-</p>
-    </div>
-    <div>
-        <div>
-            <div class="highlight">
+ </p>
+</div>
+
+   <div>
+      <div id="highlight_area">
+         <div class="highlight">
             <div class="highlight_pic">
              <img class="circle_pic" src="image/hl 1.jpg"
               height="60px"/>
             </div>
             <div>
-            😊
+             😊
             </div>
-        </div>
-        <div>    
-            <div class="highlight">
+         </div>     
+         <div class="highlight">
             <div class="highlight_pic">
              <img class="circle_pic" src="image/hl 2.jpg"
              height="60px"/>
@@ -51,9 +65,10 @@
             <div>
                 😍
             </div>
-        </div>
-    </div>
-    <div id="stat_bar">
+         </div>
+         <div></div>
+      </div>
+     <div id="stat_bar">
         <div class="stat">
            게시물<br/>
            133
@@ -66,23 +81,38 @@
            팔로우<br/>
            1
         </div>
-   </div>
-
-
     </div>
-    <div>아이콘이 들어갈 자리</div>
-    <div>
-        <div class="thumb_grid">
+  </div>
+
+    <div id="sub_icons">
+      <div class="selected">
+        <i class="fas fa-border-all"></i>
+      </div>
+      <div>
+        <i class="fas fa-film"></i>
+      </div>
+      <div>
+        <i class="far fa-play-circle"></i>
+      </div>
+      <div>
+        <i class="far fa-bookmark"></i>
+      </div>
+      <div>
+        <i class="fas fa-user-tag"></i>
+      </div>
+    </div>
+    <div class="thumbnail_grid">
+        <div >
           <img src="image/thum1.jpg" class="thumb"/>
           <img src="image/thum2.jpg" class="thumb"/>
           <img src="image/thum3.jpg" class="thumb"/>
         </div>
-        <div class="thumb_grid">
+        <div >
           <img src="image/thum4.jpg" class="thumb"/>
           <img src="image/thum5.jpg" class="thumb"/>
           <img src="image/thum6.jpg" class="thumb"/>
         </div>
-        <div class="thumb_grid">
+        <div >
           <img src="image/thum7.jpg" class="thumb"/>
           <img src="image/thum8.jpg" class="thumb"/>
           <img src="image/thum9.jpg" class="thumb"/>
