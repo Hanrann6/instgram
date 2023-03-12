@@ -1,13 +1,28 @@
 <html>
     <head>
         <link href="linky.css" rel="stylesheet">
-
     </head>
     <body>
+        <script>
+            let button = document.querySelector("input")
+            button.addEventListener("click",
+            function(e){
+                alert("clicked!")
+            })
+        </script>
+        <input type="button" value="이벤트버튼"/>
 
 안녕하세요
-<input type="button" href="index.html">
+<input type="button" href="index.html"><br/>
 <a id="link1" href="index.html">링크 연결</a>
+<br/>
+
+<input type="button" value="click"
+onclick="alert('안녕하세요')"><br/>
+
+<p onclick="alert('이랏샤이마세')">
+눌러봐요!
+</p>
 
 
     </body>
